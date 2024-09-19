@@ -1,7 +1,7 @@
-TaxBot: Automated Income Tax Calculation and Query Assistance
+Accountant.io: Automated Income Tax Calculation and Query Assistance
 
 Overview
-TaxBot is a Telegram bot designed to simplify the process of calculating income tax for Indian citizens. It allows users to upload salary details or financial documents, manually calculates their tax, and provides GPT-2 powered responses to tax-related queries. The bot handles both text-based and audio input, and offers an intuitive experience for users with little to no tax knowledge.
+We at Guns and Roses are delighted to introduce Accountant.io, which is a Telegram bot designed to simplify the process of calculating income tax for Indian citizens. It allows users to upload salary details or financial documents, manually calculates their tax, and provides GPT-2 powered responses to tax-related queries. The bot handles both text-based and audio input, and offers an intuitive experience for users with little to no tax knowledge.
 
 Download the trained model here:
 https://drive.google.com/drive/folders/1pKuT45QF0sgDgscIJ51WabAsvw7hPSeY?usp=sharing
