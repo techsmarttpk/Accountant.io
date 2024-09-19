@@ -1,0 +1,904 @@
+[
+    {
+        "prompt": "What is the maximum deduction under Section 80C?",
+        "completion": "The maximum deduction allowed under Section 80C is INR 1.5 lakh."
+    },
+    {
+        "prompt": "Can I claim tax benefits for life insurance premiums?",
+        "completion": "Yes, you can claim a deduction for life insurance premiums under Section 80C."
+    },
+    {
+        "prompt": "What are the tax benefits under Section 80D?",
+        "completion": "Under Section 80D, you can claim a deduction for medical insurance premiums up to INR 25,000 for yourself, spouse, and children, and an additional INR 50,000 for senior citizen parents."
+    },
+    {
+        "prompt": "How is HRA calculated?",
+        "completion": "HRA (House Rent Allowance) is part of your salary provided by employers to help cover rent expenses. You can claim a deduction on HRA based on the least of the following three amounts: 1) The actual HRA received from your employer. 2) Rent paid minus 10% of your basic salary. 3) 50% of your basic salary if you live in a metro city (Delhi, Mumbai, Chennai, Kolkata) or 40% if you live in a non-metro city. You need to submit rent receipts to your employer to claim HRA deductions. If your rent exceeds ₹1 lakh annually, you must provide your landlord’s PAN details. If you don’t receive HRA as part of your salary, you can still claim rent deductions under Section 80GG."
+    },
+    {
+        "prompt": "What is Section 80GG and how can I claim it?",
+        "completion": "Section 80GG allows individuals who don't receive HRA to claim deductions on the rent they pay. Eligibility criteria include: 1) You must be living in rented accommodation. 2) Neither you, your spouse, nor minor children should own residential property in the city where you live. 3) You must not be claiming HRA deductions. The deduction under Section 80GG is the least of the following three amounts: 1) ₹5,000 per month (i.e., ₹60,000 annually). 2) Rent paid minus 10% of your total income. 3) 25% of your total income."
+    },
+    {
+        "prompt": "How is rental income taxed for landlords?",
+        "completion": "For landlords, rental income is taxable under 'Income from House Property.' The rental income is calculated based on the Gross Annual Value (GAV) of the property, which is the higher of the actual rent received or the expected market rent. If your property is vacant for part of the year, the GAV is adjusted accordingly. Deductions available include: 1) Standard Deduction of 30% on the net annual value (after deducting property taxes). 2) Deduction on Home Loan Interest for the interest paid on a home loan taken to purchase or construct the rented property. There is no upper limit for this deduction if the property is let out. If the property is vacant for part of the year, your GAV is reduced proportionally. Security deposits from tenants are generally not taxable unless they are non-refundable or adjusted as rent."
+    },
+    {
+        "prompt": "What is the TDS requirement for tenants paying rent?",
+        "completion": "If you're a tenant paying more than ₹50,000 in monthly rent, you're required to deduct Tax Deducted at Source (TDS) at 5% on the total annual rent. You must file Form 26QC and issue Form 16C to your landlord. TDS is deposited once a year, not monthly."
+    },
+    {
+        "prompt": "How is rental income divided in joint ownership of property?",
+        "completion": "If the property is jointly owned, the rental income is split based on each co-owner’s ownership share. Each co-owner can claim deductions under Section 24 for their respective share of the rental income."
+    },
+    {
+        "prompt": "What is House Rent Allowance (HRA) and how does it help with tax benefits?",
+        "completion": "House Rent Allowance (HRA) is a component of your salary given by employers to help cover rent expenses. It can be partially or fully exempt from tax under certain conditions. The amount exempt is calculated based on the actual HRA received, the rent paid, and a percentage of your basic salary, depending on whether you live in a metro or non-metro city."
+    },
+    {
+        "prompt": "What are the conditions to claim HRA tax benefits?",
+        "completion": "To claim HRA tax benefits, you must live in rented accommodation, receive HRA as part of your salary, and actually pay rent. Rent receipts must be submitted to the employer, and if the rent exceeds ₹1 lakh annually, the landlord's PAN details must be provided."
+    },
+    {
+        "prompt": "How do you calculate the exempt portion of HRA?",
+        "completion": "The exempt portion of HRA is the least of the following three amounts: 1) Actual HRA received from the employer. 2) Rent paid minus 10% of your basic salary. 3) 50% of your basic salary if you live in a metro city (Delhi, Mumbai, Chennai, Kolkata) or 40% if you live in a non-metro city."
+    },
+    {
+        "prompt": "What should you do if you don’t receive HRA but pay rent?",
+        "completion": "If you don’t receive HRA but pay rent, you can claim a deduction under Section 80GG. This is applicable to individuals who are self-employed or whose employers do not provide HRA."
+    },
+    {
+        "prompt": "What are the eligibility criteria to claim deductions under Section 80GG?",
+        "completion": "To claim deductions under Section 80GG, you must: 1) Be living in rented accommodation. 2) Not own any residential property in the city where you live. 3) Not be claiming HRA deductions. 4) Be paying rent and must not have received HRA."
+    },
+    {
+        "prompt": "How is the deduction under Section 80GG calculated?",
+        "completion": "The deduction under Section 80GG is the least of the following three amounts: 1) ₹5,000 per month (i.e., ₹60,000 annually). 2) Rent paid minus 10% of your total income. 3) 25% of your total income."
+    },
+    {
+        "prompt": "What is the Gross Annual Value (GAV) of a property?",
+        "completion": "Gross Annual Value (GAV) is the higher of the actual rent received or the expected market rent for the property. If the property is vacant for part of the year, the GAV is adjusted accordingly."
+    },
+    {
+        "prompt": "What is the standard deduction available for landlords under Section 24?",
+        "completion": "Under Section 24, landlords can claim a standard deduction of 30% on the net annual value of the property, which is the GAV minus property taxes. This deduction is allowed regardless of actual expenses incurred for maintenance or repairs."
+    },
+    {
+        "prompt": "Can landlords claim deductions on home loan interest?",
+        "completion": "Yes, landlords can claim a deduction on the interest paid on home loans taken to purchase or construct the rented property. There is no upper limit for this deduction if the property is let out, in addition to the 30% standard deduction."
+    },
+    {
+        "prompt": "What happens if a property is vacant for part of the year?",
+        "completion": "If a property is vacant for part of the year, the Gross Annual Value (GAV) is reduced proportionally to reflect the period of vacancy, which decreases the taxable rental income."
+    },
+    {
+        "prompt": "How are security deposits from tenants treated for tax purposes?",
+        "completion": "Security deposits are generally not taxable unless they are non-refundable or adjusted as rent. If adjusted as rent, they become part of your rental income and are taxable accordingly."
+    },
+    {
+        "prompt": "What is the TDS requirement for tenants paying high rent?",
+        "completion": "If a tenant pays more than ₹50,000 in monthly rent, they must deduct Tax Deducted at Source (TDS) at 5% on the total annual rent. The tenant must file Form 26QC and issue Form 16C to the landlord. TDS is deposited once a year, not monthly."
+    },
+    {
+        "prompt": "How is rental income divided in the case of joint property ownership?",
+        "completion": "In joint property ownership, the rental income is divided based on each co-owner’s share of ownership. Each co-owner can claim deductions under Section 24 for their proportionate share of the rental income."
+    },
+    {
+        "prompt": "What are the tax implications if you receive rental income from a property you own?",
+        "completion": "Rental income from a property is taxable under 'Income from House Property.' You can claim deductions such as the standard 30% deduction on the net annual value, and interest on home loans if applicable. Any vacant periods will reduce the GAV and thereby the tax liability."
+    },
+    {
+        "prompt": "Can tenants claim any deductions for rent paid without receiving HRA?",
+        "completion": "Tenants who do not receive HRA but pay rent can claim deductions under Section 80GG, subject to eligibility criteria and limits specified."
+    },
+    {
+        "prompt": "What is the difference between HRA and Section 80GG deductions?",
+        "completion": "HRA deductions are available to salaried individuals receiving HRA from their employer and living in rented accommodation. Section 80GG deductions are available to those who do not receive HRA but pay rent, including self-employed individuals."
+    },
+    {
+        "prompt": "How do you claim a deduction for home loan interest on rented property?",
+        "completion": "To claim a deduction for home loan interest on rented property, you must ensure the property is let out. The interest paid on the home loan can be claimed without an upper limit under Section 24, in addition to the 30% standard deduction on the net annual value."
+    },
+    {
+        "prompt": "What documentation is required to claim HRA deductions?",
+        "completion": "To claim HRA deductions, you need to submit rent receipts to your employer. If the annual rent exceeds ₹1 lakh, you must also provide your landlord's PAN details."
+    },
+    {
+        "prompt": "Can rent paid to family members be claimed under HRA?",
+        "completion": "Yes, rent paid to family members can be claimed under HRA, provided the rent is genuine and supported by proper documentation, including rent receipts and the landlord’s PAN details if the rent exceeds ₹1 lakh annually."
+    },
+    {
+        "prompt": "What should landlords do if their property is rented out for only part of the year?",
+        "completion": "If a property is rented out for only part of the year, landlords should adjust the Gross Annual Value (GAV) proportionally for the period of rental. This will reflect in the taxable rental income and any deductions claimed."
+    },
+    {
+        "prompt": "How is the taxability of rent received affected if the property is owned jointly?",
+        "completion": "In the case of joint ownership, each co-owner's share of the rental income is taxed individually. Each co-owner can claim deductions under Section 24 for their proportionate share of the rental income."
+    },
+    {
+        "prompt": "What should tenants know about TDS on rent payments?",
+        "completion": "Tenants paying more than ₹50,000 per month in rent must deduct TDS at 5% on the total annual rent. They are responsible for filing Form 26QC and issuing Form 16C to the landlord. TDS payments are made annually."
+    },
+    {
+        "prompt": "What deductions can landlords claim for property maintenance and repairs?",
+        "completion": "Landlords cannot claim deductions for actual maintenance or repairs under the standard 30% deduction. However, they can claim a standard deduction of 30% on the net annual value of the property, which includes property taxes paid."
+    },
+    {
+        "prompt": "What deductions are available under Section 80C?",
+        "completion": "Under Section 80C, you can claim deductions for payments made towards: 1) Life Insurance Premium, 2) Provident Fund, 3) Subscription to certain equity shares, 4) Tuition Fees, 5) National Savings Certificate, 6) Housing Loan Principal, and 7) Other various specified items. The combined deduction limit under Section 80C is ₹1.5 lakh."
+    },
+    {
+        "prompt": "What is Section 80CCC and what does it cover?",
+        "completion": "Section 80CCC allows for deductions on premiums paid towards an annuity plan of LIC or any other insurer for a pension scheme. The deduction is included within the overall limit of ₹1.5 lakh under Section 80C."
+    },
+    {
+        "prompt": "What is Section 80CCD(1) and its deduction limit?",
+        "completion": "Section 80CCD(1) provides deductions for contributions to the Pension Scheme of the Central Government, including the National Pension System (NPS). The combined deduction limit for Section 80C, 80CCC, and 80CCD(1) is ₹1.5 lakh."
+    },
+    {
+        "prompt": "What are the benefits of Section 80CCD(1B)?",
+        "completion": "Section 80CCD(1B) allows an additional deduction of ₹50,000 for contributions made to the Pension Scheme of the Central Government (NPS), over and above the ₹1.5 lakh limit under Sections 80C, 80CCC, and 80CCD(1)."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80CCD(2)?",
+        "completion": "Under Section 80CCD(2), deductions are allowed for contributions made by an employer to the Pension Scheme of the Central Government. The limit is 10% of salary for PSU or other employers, and 14% of salary for Central or State Government employees."
+    },
+    {
+        "prompt": "What is Section 80CCH and what does it cover?",
+        "completion": "Section 80CCH allows for deductions in respect of contributions made to the Agnipath Scheme. Deductions are available for amounts paid or deposited in the Agniveer Corpus Fund and contributions made by the Central Government to the fund."
+    },
+    {
+        "prompt": "What deductions are available under Section 80D for health insurance premiums?",
+        "completion": "Under Section 80D, you can claim a deduction of up to ₹25,000 for premiums paid on health insurance for yourself, spouse, and dependent children. If any person insured is a senior citizen, the limit increases to ₹50,000. An additional ₹5,000 can be claimed for preventive health check-ups within these limits."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80D for parents' health insurance?",
+        "completion": "Under Section 80D, you can claim a deduction of up to ₹25,000 for premiums paid on health insurance for your parents. If any parent is a senior citizen, the limit increases to ₹50,000. An additional ₹5,000 can be claimed for preventive health check-ups within these limits."
+    },
+    {
+        "prompt": "What deductions can be claimed under Section 80DD?",
+        "completion": "Section 80DD allows for a deduction of ₹75,000 for the maintenance or medical treatment of a disabled dependent. If the disability is severe (80% or more), the deduction increases to ₹1,25,000. Form 10-IA should be filed along with the return of income for claiming this deduction."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80DDB for medical treatment of specified diseases?",
+        "completion": "Under Section 80DDB, you can claim a deduction of up to ₹40,000 for medical treatment of specified diseases for yourself or a dependent. For senior citizens, the deduction limit is ₹1,00,000."
+    },
+    {
+        "prompt": "What deductions are available under Section 80E for higher education loans?",
+        "completion": "Section 80E allows for a deduction of the entire amount paid towards interest on loans taken for higher education. This applies to loans taken for the education of yourself or a relative."
+    },
+    {
+        "prompt": "What is Section 80EE and its deduction limit?",
+        "completion": "Section 80EE provides a deduction of up to ₹50,000 on interest payments made on loans taken for the acquisition of residential house property. This is applicable for loans sanctioned between 1st April 2016 and 31st March 2017."
+    },
+    {
+        "prompt": "What deductions can be claimed under Section 80EEA?",
+        "completion": "Section 80EEA allows a deduction of up to ₹1,50,000 on interest payments for loans taken for the acquisition of a residential house property. This applies to loans sanctioned between 1st April 2019 and 31st March 2022, and if no deduction was claimed under Section 80EE."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80EEB for electric vehicle loans?",
+        "completion": "Section 80EEB provides a deduction of up to ₹1,50,000 on interest payments for loans taken for the purchase of electric vehicles. This applies to loans sanctioned between 1st April 2019 and 31st March 2023."
+    },
+    {
+        "prompt": "What is Section 80G and how are donations treated under it?",
+        "completion": "Section 80G allows deductions for donations made to prescribed funds and charitable institutions. Donations can be eligible for 100% or 50% deduction, with or without a qualifying limit, depending on the type of institution and donation. Cash donations exceeding ₹2,000 are not eligible for deduction."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80GG for rent paid?",
+        "completion": "Under Section 80GG, the least of the following is allowed as a deduction: 1) ₹5,000 per month (i.e., ₹60,000 annually), 2) Rent paid minus 10% of total income before this deduction, 3) 25% of total income (excluding certain types of income). Form 10BA must be filed to claim this deduction."
+    },
+    {
+        "prompt": "What deductions are available under Section 80GGA for donations?",
+        "completion": "Section 80GGA provides deductions for donations made for scientific research, rural development, and conservation of natural resources. Donations to specific organizations and funds notified by the Central Government are also eligible. No deduction is allowed for donations made in cash exceeding ₹2,000 or if gross total income includes business or profession income."
+    },
+    {
+        "prompt": "What is Section 80GGC and what does it cover?",
+        "completion": "Section 80GGC provides deductions for donations made to political parties or electoral trusts. These donations are eligible for deduction without any limit."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80TTA for interest on savings accounts?",
+        "completion": "Under Section 80TTA, a deduction of up to ₹10,000 is available on interest received from savings bank accounts for non-senior citizens."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80TTB for senior citizens?",
+        "completion": "Section 80TTB provides a deduction of up to ₹50,000 on interest received from deposits (savings, fixed, and recurring) for resident senior citizens."
+    },
+    {
+        "prompt": "What deductions are available under Section 80U?",
+        "completion": "Section 80U offers a flat deduction of ₹75,000 for resident individuals with disabilities. If the disability is severe (80% or more), the deduction increases to ₹1,25,000. This deduction is irrespective of the expenses incurred."
+    },
+    {
+        "prompt": "What is the combined deduction limit for Sections 80C, 80CCC, and 80CCD(1)?",
+        "completion": "The combined deduction limit for Sections 80C, 80CCC, and 80CCD(1) is ₹1.5 lakh. This limit includes deductions for life insurance premiums, provident fund contributions, pension schemes, and other specified investments."
+    },
+    {
+        "prompt": "Can a taxpayer opting for the New Tax Regime claim deductions under Section 80CCD(2)?",
+        "completion": "Yes, taxpayers opting for the New Tax Regime under section 115BAC can claim deductions under Section 80CCD(2) for contributions made by an employer to the Pension Scheme of the Central Government. The deduction limits are 10% of salary for PSU or other employers and 14% for Central or State Government employers."
+    },
+    {
+        "prompt": "What is the difference between deductions under Section 80C and Section 80CCD(1B)?",
+        "completion": "Section 80C allows deductions up to ₹1.5 lakh for various investments, including life insurance, provident fund, and tuition fees. Section 80CCD(1B) provides an additional deduction of ₹50,000 specifically for contributions to the Pension Scheme of the Central Government (NPS), over and above the ₹1.5 lakh limit."
+    },
+    {
+        "prompt": "What is the eligibility criteria for claiming deductions under Section 80GG?",
+        "completion": "To claim deductions under Section 80GG, you must: 1) Live in rented accommodation, 2) Not own residential property in the city where you live, 3) Not be claiming HRA deductions, and 4) Be self-employed or not receiving HRA as part of your salary."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80D for preventive health check-ups?",
+        "completion": "Under Section 80D, preventive health check-ups are included in the overall deduction limits. You can claim up to ₹5,000 for preventive health check-ups within the existing limits of ₹25,000 (or ₹50,000 for senior citizens) for yourself, spouse, and dependent children."
+    },
+    {
+        "prompt": "What are the deductions available under Section 80E for education loans?",
+        "completion": "Section 80E provides a deduction for the entire amount of interest paid on loans taken for higher education. This applies to loans taken for the education of yourself or a relative, with no limit on the amount of interest eligible for deduction."
+    },
+    {
+        "prompt": "What deductions are available under Section 80E for loans taken for higher education?",
+        "completion": "Section 80E offers a deduction for interest payments on loans taken for higher education. The deduction is for the total interest paid on the loan and is available for loans taken for the education of yourself or a relative."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80EEA for first-time home buyers?",
+        "completion": "Section 80EEA allows a deduction of up to ₹1,50,000 on interest payments for loans taken for the acquisition of residential house property for the first time. This is applicable for loans sanctioned between 1st April 2019 and 31st March 2022."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80EEB for electric vehicle loans?",
+        "completion": "Under Section 80EEB, you can claim a deduction of up to ₹1,50,000 on interest payments for loans taken for the purchase of electric vehicles. This deduction applies to loans sanctioned between 1st April 2019 and 31st March 2023."
+    },
+    {
+        "prompt": "What is the combined deduction limit under Section 80C, 80CCC, and 80CCD(1)?",
+        "completion": "The combined deduction limit for Sections 80C, 80CCC, and 80CCD(1) is ₹1.5 lakh. This includes deductions for various investments like life insurance, provident fund, and pension schemes."
+    },
+    {
+        "prompt": "What is Section 80GGA and who is eligible for deductions under it?",
+        "completion": "Section 80GGA provides deductions for donations made for scientific research, rural development, and conservation of natural resources. Eligible donors include individuals whose gross total income does not include income from business or profession."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80GGC for political donations?",
+        "completion": "Under Section 80GGC, you can claim a deduction for donations made to political parties or electoral trusts. There is no upper limit for this deduction."
+    },
+    {
+        "prompt": "What is Section 80TTA and who can claim it?",
+        "completion": "Section 80TTA allows a deduction of up to ₹10,000 on interest received from savings bank accounts. This deduction is available to non-senior citizens."
+    },
+    {
+        "prompt": "What is Section 80TTB and who can claim it?",
+        "completion": "Section 80TTB provides a deduction of up to ₹50,000 on interest received from deposits (savings, fixed, and recurring) for resident senior citizens."
+    },
+    {
+        "prompt": "What deductions can be claimed under Section 80U for individuals with disabilities?",
+        "completion": "Section 80U provides a flat deduction of ₹75,000 for individuals with disabilities. If the disability is severe (80% or more), the deduction increases to ₹1,25,000."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80DD for maintenance of a disabled dependent?",
+        "completion": "Section 80DD allows a flat deduction of ₹75,000 for the maintenance or medical treatment of a disabled dependent. For severe disability (80% or more), the deduction increases to ₹1,25,000."
+    },
+    {
+        "prompt": "What deductions are available under Section 80DDB for medical treatment of specified diseases?",
+        "completion": "Under Section 80DDB, you can claim a deduction of up to ₹40,000 for medical treatment of specified diseases for yourself or a dependent. For senior citizens, the deduction limit is ₹1,00,000."
+    },
+    {
+        "prompt": "What is the deduction available under Section 80E for education loan interest?",
+        "completion": "Section 80E provides a deduction for the full amount of interest paid on loans taken for higher education. This applies to loans taken for the education of yourself or a relative, with no cap on the amount of interest eligible for deduction."
+    },
+    {
+        "prompt": "What deductions can be claimed under Section 80EE for home loan interest?",
+        "completion": "Section 80EE allows a deduction of up to ₹50,000 on interest payments made on home loans sanctioned between 1st April 2016 and 31st March 2017. This deduction is available for individuals purchasing residential property."
+    },
+    {
+        "prompt": "What is Section 80EEA and its relevance for first-time home buyers?",
+        "completion": "Section 80EEA provides a deduction of up to ₹1,50,000 on interest payments for home loans taken for the first time. This applies to loans sanctioned between 1st April 2019 and 31st March 2022 and is available if no deduction was claimed under Section 80EE."
+    },
+    {
+        "prompt": "What is Section 80EEB and its benefit for electric vehicle loans?",
+        "completion": "Section 80EEB allows a deduction of up to ₹1,50,000 on interest payments for loans taken for the purchase of electric vehicles. This deduction applies to loans sanctioned between 1st April 2019 and 31st March 2023."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80G for donations?",
+        "completion": "Under Section 80G, donations to certain charitable institutions and funds can qualify for deductions. Depending on the type of institution, you can get 100% or 50% deduction, either with or without a qualifying limit. Cash donations exceeding ₹2,000 are not eligible for deduction."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80GGA for donations?",
+        "completion": "Section 80GGA provides deductions for donations made for scientific research, rural development, and conservation projects. The deduction is available for donors whose gross total income does not include income from business or profession. No deduction is allowed for cash donations exceeding ₹2,000."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80GGC for donations to political parties?",
+        "completion": "Section 80GGC allows deductions for donations made to political parties or electoral trusts. There is no upper limit for this deduction."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80TTA for non-senior citizens?",
+        "completion": "Under Section 80TTA, non-senior citizens can claim a deduction of up to ₹10,000 on interest received from savings bank accounts."
+    },
+    {
+        "prompt": "What is Section 80TTB and who is eligible for this deduction?",
+        "completion": "Section 80TTB provides a deduction of up to ₹50,000 on interest received from deposits, including savings, fixed, and recurring deposits, for resident senior citizens."
+    },
+    {
+        "prompt": "What deductions are available under Section 80U for individuals with disabilities?",
+        "completion": "Section 80U provides a flat deduction of ₹75,000 for resident individuals with disabilities. For severe disabilities (80% or more), the deduction increases to ₹1,25,000. This deduction is irrespective of the expenses incurred."
+    },
+    {
+        "prompt": "What deductions can be claimed under Section 80DD for maintenance of a disabled dependent?",
+        "completion": "Section 80DD allows a flat deduction of ₹75,000 for maintenance or medical treatment of a disabled dependent. If the disability is severe (80% or more), the deduction increases to ₹1,25,000."
+    },
+    {
+        "prompt": "What is the deduction available under Section 80DDB for medical treatment of specified diseases?",
+        "completion": "Under Section 80DDB, you can claim a deduction of up to ₹40,000 for medical treatment of specified diseases for yourself or a dependent. For senior citizens, the deduction limit is ₹1,00,000."
+    },
+    {
+        "prompt": "What is Section 80E and how does it benefit education loan borrowers?",
+        "completion": "Section 80E provides a deduction for the full amount of interest paid on loans taken for higher education. This applies to loans taken for the education of yourself or a relative, with no cap on the interest amount eligible for deduction."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80EE for home loan interest?",
+        "completion": "Section 80EE offers a deduction of up to ₹50,000 on interest payments made on home loans taken between 1st April 2016 and 31st March 2017. This is applicable to individuals purchasing a residential property."
+    },
+    {
+        "prompt": "What deductions can be claimed under Section 80EEA for first-time home buyers?",
+        "completion": "Section 80EEA allows a deduction of up to ₹1,50,000 on interest payments for home loans taken for the first time. This applies to loans sanctioned between 1st April 2019 and 31st March 2022 and if no deduction was claimed under Section 80EE."
+    },
+    {
+        "prompt": "What is the benefit of Section 80EEB for electric vehicle loans?",
+        "completion": "Section 80EEB provides a deduction of up to ₹1,50,000 on interest payments for loans taken for purchasing electric vehicles. This benefit applies to loans sanctioned between 1st April 2019 and 31st March 2023."
+    },
+    {
+        "prompt": "What deductions are available under Section 80G for charitable donations?",
+        "completion": "Section 80G allows deductions for donations to certain charitable institutions and funds. The deductions can be 100% or 50%, with or without a qualifying limit, depending on the institution and donation type. Cash donations over ₹2,000 are not eligible."
+    },
+    {
+        "prompt": "What is the eligibility for deductions under Section 80GGA for donations?",
+        "completion": "Section 80GGA allows deductions for donations to scientific research, rural development, and conservation projects. This is available to individuals whose gross total income does not include income from business or profession. Donations in cash exceeding ₹2,000 are not eligible."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80GGC for donations to political parties?",
+        "completion": "Section 80GGC allows a deduction for donations to political parties or electoral trusts. There is no upper limit for this deduction."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80TTA for savings account interest?",
+        "completion": "Section 80TTA allows a deduction of up to ₹10,000 on interest received from savings bank accounts. This is available for non-senior citizens."
+    },
+    {
+        "prompt": "What is Section 80TTB and its benefits for senior citizens?",
+        "completion": "Section 80TTB provides a deduction of up to ₹50,000 on interest received from deposits, including savings, fixed, and recurring deposits, for resident senior citizens."
+    },
+    {
+        "prompt": "What deductions are available under Section 80U for disabilities?",
+        "completion": "Section 80U provides a flat deduction of ₹75,000 for individuals with disabilities. If the disability is severe (80% or more), the deduction increases to ₹1,25,000."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80DD for maintenance of a disabled dependent?",
+        "completion": "Under Section 80DD, a flat deduction of ₹75,000 is available for the maintenance or medical treatment of a disabled dependent. For severe disabilities (80% or more), the deduction increases to ₹1,25,000."
+    },
+    {
+        "prompt": "What is Section 80DDB and its relevance for medical treatment?",
+        "completion": "Section 80DDB provides deductions for expenses incurred on medical treatment of specified diseases. The deduction limit is ₹40,000 for individuals and dependents, and ₹1,00,000 for senior citizens."
+    },
+    {
+        "prompt": "What is Section 80E and its benefit for education loan borrowers?",
+        "completion": "Section 80E allows a deduction for the total interest paid on loans taken for higher education. This applies to loans for your own or a relative's education, with no limit on the amount of interest eligible for deduction."
+    },
+    {
+        "prompt": "What deductions can be claimed under Section 80EE for home loan interest?",
+        "completion": "Section 80EE allows a deduction of up to ₹50,000 on interest payments made on home loans taken between 1st April 2016 and 31st March 2017. This is available for individuals purchasing residential property."
+    },
+    {
+        "prompt": "What is Section 80EEA and its relevance for first-time home buyers?",
+        "completion": "Section 80EEA provides a deduction of up to ₹1,50,000 on interest payments for home loans taken for the first time. This applies to loans sanctioned between 1st April 2019 and 31st March 2022 and if no deduction was claimed under Section 80EE."
+    },
+    {
+        "prompt": "What is Section 80EEB and its benefit for electric vehicle loans?",
+        "completion": "Section 80EEB allows a deduction of up to ₹1,50,000 on interest payments for loans taken for the purchase of electric vehicles. This deduction is applicable to loans sanctioned between 1st April 2019 and 31st March 2023."
+    },
+    {
+        "prompt": "What is the deduction available under Section 80G for charitable donations?",
+        "completion": "Section 80G provides deductions for donations to charitable institutions and funds. The deduction can be 100% or 50%, with or without a qualifying limit, depending on the institution and type of donation. Cash donations exceeding ₹2,000 are not eligible."
+    },
+    {
+        "prompt": "What is the eligibility for deductions under Section 80GGA for donations?",
+        "completion": "Section 80GGA allows deductions for donations made for scientific research, rural development, and conservation of natural resources. This is available to individuals whose gross total income does not include income from business or profession. Donations in cash exceeding ₹2,000 are not eligible."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80GGC for political donations?",
+        "completion": "Under Section 80GGC, you can claim a deduction for donations made to political parties or electoral trusts. There is no upper limit for this deduction."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80TTA for savings account interest?",
+        "completion": "Section 80TTA allows a deduction of up to ₹10,000 on interest received from savings bank accounts. This is available for non-senior citizens."
+    },
+    {
+        "prompt": "What is Section 80TTB and who is eligible for it?",
+        "completion": "Section 80TTB provides a deduction of up to ₹50,000 on interest received from deposits (savings, fixed, and recurring) for resident senior citizens."
+    },
+    {
+        "prompt": "What is Section 80U and what deductions can be claimed?",
+        "completion": "Section 80U allows a flat deduction of ₹75,000 for resident individuals with disabilities. If the disability is severe (80% or more), the deduction increases to ₹1,25,000."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80DD for a disabled dependent?",
+        "completion": "Under Section 80DD, a flat deduction of ₹75,000 is allowed for the maintenance or medical treatment of a disabled dependent. If the disability is severe (80% or more), the deduction increases to ₹1,25,000."
+    },
+    {
+        "prompt": "What deductions can be claimed under Section 80DDB for medical treatment of specified diseases?",
+        "completion": "Section 80DDB provides a deduction of up to ₹40,000 for medical treatment of specified diseases for yourself or a dependent. For senior citizens, the deduction limit is ₹1,00,000."
+    },
+    {
+        "prompt": "What is the benefit of Section 80E for education loan borrowers?",
+        "completion": "Section 80E provides a deduction for the total interest paid on loans taken for higher education. This applies to loans for the education of yourself or a relative, with no cap on the interest amount eligible for deduction."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80EE for home loan interest?",
+        "completion": "Under Section 80EE, you can claim a deduction of up to ₹50,000 on interest payments made on home loans sanctioned between 1st April 2016 and 31st March 2017. This is applicable for individuals purchasing a residential property."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80EEA for first-time home buyers?",
+        "completion": "Section 80EEA provides a deduction of up to ₹1,50,000 on interest payments for home loans taken for the first time. This applies to loans sanctioned between 1st April 2019 and 31st March 2022 and if no deduction was claimed under Section 80EE."
+    },
+    {
+        "prompt": "What is Section 80EEB and its benefit for electric vehicle loans?",
+        "completion": "Section 80EEB allows a deduction of up to ₹1,50,000 on interest payments for loans taken for the purchase of electric vehicles. This deduction is applicable to loans sanctioned between 1st April 2019 and 31st March 2023."
+    },
+    {
+        "prompt": "What is the deduction available under Section 80G for charitable donations?",
+        "completion": "Under Section 80G, donations to certain charitable institutions and funds qualify for deductions. Depending on the institution, the deduction can be 100% or 50%, either with or without a qualifying limit. Cash donations exceeding ₹2,000 are not eligible."
+    },
+    {
+        "prompt": "What is the eligibility for deductions under Section 80GGA for donations?",
+        "completion": "Section 80GGA allows deductions for donations made towards scientific research, rural development, and conservation of natural resources. Eligible donors are those whose gross total income does not include income from business or profession. Cash donations exceeding ₹2,000 are not eligible."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80GGC for donations to political parties?",
+        "completion": "Under Section 80GGC, you can claim a deduction for donations made to political parties or electoral trusts. There is no upper limit for this deduction."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80TTA for interest from savings accounts?",
+        "completion": "Under Section 80TTA, non-senior citizens can claim a deduction of up to ₹10,000 on interest received from savings bank accounts."
+    },
+    {
+        "prompt": "What is Section 80TTB and its benefits for senior citizens?",
+        "completion": "Section 80TTB provides a deduction of up to ₹50,000 on interest received from deposits (savings, fixed, and recurring) for resident senior citizens."
+    },
+    {
+        "prompt": "What deductions can be claimed under Section 80U for individuals with disabilities?",
+        "completion": "Section 80U offers a flat deduction of ₹75,000 for individuals with disabilities. For severe disabilities (80% or more), the deduction increases to ₹1,25,000."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80DD for maintenance of a disabled dependent?",
+        "completion": "Section 80DD allows a flat deduction of ₹75,000 for maintenance or medical treatment of a disabled dependent. For severe disabilities (80% or more), the deduction increases to ₹1,25,000."
+    },
+    {
+        "prompt": "What is Section 80DDB and the deduction available for medical treatment?",
+        "completion": "Section 80DDB provides deductions for medical treatment of specified diseases. The deduction limit is ₹40,000 for individuals and dependents, and ₹1,00,000 for senior citizens."
+    },
+    {
+        "prompt": "If a taxpayer is claiming a deduction under Section 80U, what is the recommendation regarding Form 10-IA?",
+        "completion": "If a taxpayer is claiming a deduction under Section 80U, it is recommended to file Form 10-IA along with the income tax return. Although Form 10-IA can be filed later, submitting it with the return of income helps avoid any potential inconvenience."
+    },
+    {
+        "prompt": "What is a Unit Linked Insurance Plan (ULIP) and its tax benefits under Section 80C?",
+        "completion": "A Unit Linked Insurance Plan (ULIP) is an insurance product that provides both insurance and investment benefits. Premiums paid towards a ULIP are eligible for a deduction from taxable income under Section 80C, up to a maximum of INR 1.5 lakh per financial year."
+    },
+    {
+        "prompt": "What are Equity-Linked Savings Schemes (ELSS) and their tax benefits under Section 80C?",
+        "completion": "Equity-Linked Savings Schemes (ELSS) are mutual funds that invest primarily in equities. They offer tax benefits under Section 80C with a maximum deduction limit of INR 1.5 lakh per financial year. ELSS has a lock-in period of three years, the shortest among all 80C options."
+    },
+    {
+        "prompt": "How does the Public Provident Fund (PPF) benefit taxpayers under Section 80C?",
+        "completion": "The Public Provident Fund (PPF) is a long-term savings scheme backed by the government. Contributions made to a PPF account are eligible for a deduction under Section 80C, up to INR 1.5 lakh per financial year. The interest earned is also tax-free."
+    },
+    {
+        "prompt": "What are National Savings Certificates (NSC) and their tax benefits under Section 80C?",
+        "completion": "National Savings Certificates (NSC) are fixed-income investment instruments offered by the post office. Investments in NSC qualify for a deduction under Section 80C, with a maximum limit of INR 1.5 lakh per financial year. The NSC has a lock-in period of five years."
+    },
+    {
+        "prompt": "How do life insurance premiums qualify for deductions under Section 80C?",
+        "completion": "Premiums paid for life insurance policies are eligible for deductions under Section 80C. The maximum limit for deductions under this section is INR 1.5 lakh per financial year."
+    },
+    {
+        "prompt": "What are the tax benefits of contributions to the Employee Provident Fund (EPF) under Section 80C?",
+        "completion": "Contributions made to the Employee Provident Fund (EPF) by an employee qualify for a deduction under Section 80C. The maximum limit for these deductions is INR 1.5 lakh per financial year."
+    },
+    {
+        "prompt": "What is the Sukanya Samriddhi Yojana (SSY) and its tax benefits under Section 80C?",
+        "completion": "The Sukanya Samriddhi Yojana (SSY) is a savings scheme aimed at encouraging savings for the education and marriage of a girl child. Contributions to SSY are eligible for tax deductions under Section 80C, up to INR 1.5 lakh per financial year."
+    },
+    {
+        "prompt": "How does the Senior Citizens Savings Scheme (SCSS) offer tax benefits under Section 80C?",
+        "completion": "The Senior Citizens Savings Scheme (SCSS) is a savings option for senior citizens that provides regular income and tax benefits. Contributions to SCSS are eligible for deductions under Section 80C, with a maximum limit of INR 1.5 lakh per financial year."
+    },
+    {
+        "prompt": "What are the tax benefits of investing in a fixed deposit (FD) under Section 80C?",
+        "completion": "Tax-saving fixed deposits (FDs) with a lock-in period of five years qualify for deductions under Section 80C. The maximum deduction limit under this section is INR 1.5 lakh per financial year."
+    },
+    {
+        "prompt": "How does repayment of home loan principal qualify for deductions under Section 80C?",
+        "completion": "The principal repayment on a home loan is eligible for deductions under Section 80C. The maximum deduction allowed under this section is INR 1.5 lakh per financial year."
+    },
+    {
+        "prompt": "What is the benefit of claiming deductions for tuition fees under Section 80C?",
+        "completion": "Tuition fees paid for the education of two children are eligible for deductions under Section 80C. The maximum limit for this deduction is INR 1.5 lakh per financial year."
+    },
+    {
+        "prompt": "Can you claim deductions under Section 80C for investments in both ULIPs and ELSS?",
+        "completion": "Yes, you can claim deductions under Section 80C for investments in both Unit Linked Insurance Plans (ULIPs) and Equity-Linked Savings Schemes (ELSS), subject to the overall limit of INR 1.5 lakh per financial year."
+    },
+    {
+        "prompt": "Is there a lock-in period for investments in the Public Provident Fund (PPF)?",
+        "completion": "Yes, the Public Provident Fund (PPF) has a lock-in period of 15 years. Contributions to a PPF account qualify for deductions under Section 80C, and the interest earned is tax-free."
+    },
+    {
+        "prompt": "How does the lock-in period of an Equity-Linked Savings Scheme (ELSS) compare to other 80C options?",
+        "completion": "The lock-in period for Equity-Linked Savings Schemes (ELSS) is three years, which is the shortest among all options eligible for deductions under Section 80C."
+    },
+    {
+        "prompt": "What is the maximum deduction limit under Section 80C for investments and expenses?",
+        "completion": "The maximum deduction limit under Section 80C for eligible investments and expenses is INR 1.5 lakh per financial year."
+    },
+    {
+        "prompt": "What tax benefits can you get from charity donations under Section 80G?",
+        "completion": "Donations to specific relief funds and charity organizations are eligible for tax deductions under Section 80G. The deduction can be 100% or 50%, either with or without a qualifying limit, depending on the organization."
+    },
+    {
+        "prompt": "How can health insurance premiums help in saving taxes?",
+        "completion": "You can claim a deduction of up to ₹25,000 for health insurance premiums paid for yourself, your spouse, and dependent children under Section 80D. Additionally, you can claim an extra deduction for premiums paid for your parents, which is also up to ₹25,000 or ₹50,000 if they are senior citizens."
+    },
+    {
+        "prompt": "What is the tax exemption limit for interest earned on savings accounts under Section 80TTA?",
+        "completion": "Under Section 80TTA, interest earned on savings accounts is tax-exempt up to ₹10,000. For senior citizens, this limit is increased to ₹50,000 under Section 80TTB."
+    },
+    {
+        "prompt": "Is agricultural income taxable in India?",
+        "completion": "No, income from agriculture is exempt from income tax in India."
+    },
+    {
+        "prompt": "What medical expenses are eligible for deduction under Section 80DDB?",
+        "completion": "Section 80DDB allows deductions for medical expenses incurred for the treatment of specific diseases. The deduction limit is ₹40,000, and it increases to ₹1,00,000 for senior citizens."
+    },
+    {
+        "prompt": "Are there any taxes on inheritance in India?",
+        "completion": "Inheritance is tax-free in India as there is no inheritance tax."
+    },
+    {
+        "prompt": "How can investments under Section 80C help reduce tax liability?",
+        "completion": "Investments up to ₹1,50,000 in tax-saving instruments such as ULIPs, ELSS, PPF, NSC, and others qualify for deductions under Section 80C, helping to reduce your tax liability."
+    },
+    {
+        "prompt": "What deductions are available under Section 80DD for expenses related to a disabled dependent?",
+        "completion": "Under Section 80DD, you can claim a deduction of up to ₹75,000 for expenses related to a disabled dependent. This amount increases to ₹1,25,000 if the disability is severe (80% or more)."
+    },
+    {
+        "prompt": "Can business owners claim travel expenses to reduce their tax liability?",
+        "completion": "Yes, business owners can claim travel expenses as part of their business costs, which helps in reducing their tax liability."
+    },
+    {
+        "prompt": "What are the tax benefits for a Hindu Undivided Family (HUF)?",
+        "completion": "A Hindu Undivided Family (HUF) is eligible for separate tax exemptions, including a basic tax exemption of ₹2.50 lakh."
+    },
+    {
+        "prompt": "What are the tax benefits of donating to political parties?",
+        "completion": "Donations to political parties are eligible for a 100% tax deduction under Section 80GGC and Section 80GGB."
+    },
+    {
+        "prompt": "How does Section 80E help with education loans?",
+        "completion": "Under Section 80E, the interest paid on education loans is tax-deductible. There is no upper limit on the amount of interest that can be claimed as a deduction."
+    },
+    {
+        "prompt": "What is the tax treatment for wedding gifts?",
+        "completion": "Wedding gifts received from direct relatives are tax-exempt. Gifts from friends or unrelated individuals are tax-exempt up to ₹50,000."
+    },
+    {
+        "prompt": "Is the interest earned on Non-Resident External (NRE) accounts taxable?",
+        "completion": "No, interest earned on Non-Resident External (NRE) accounts is tax-free in India."
+    },
+    {
+        "prompt": "Are educational scholarships taxable?",
+        "completion": "Scholarships awarded to students are exempt from income tax under Section 10(16)."
+    },
+    {
+        "prompt": "What are the key benefits of Section 80C for tax saving?",
+        "completion": "Section 80C allows you to deduct up to ₹1.5 lakh from your taxable income for investments in financial instruments like Public Provident Fund (PPF), Employee Provident Fund (EPF), Unit Linked Insurance Plans (ULIPs), National Pension System (NPS), Equity Linked Saving Schemes (ELSS), and five-year tax-saving bank fixed deposits."
+    },
+    {
+        "prompt": "How much can you claim under Section 80D for health insurance premiums?",
+        "completion": "Under Section 80D, you can deduct up to ₹25,000 from your taxable income for premiums paid towards health insurance for yourself, your spouse, and dependent children. An additional deduction of ₹25,000 (or ₹50,000 if the insured is a senior citizen) can be claimed for premiums paid for your parents' health insurance."
+    },
+    {
+        "prompt": "What is the benefit of Section 80E for education loans?",
+        "completion": "Section 80E allows you to deduct the entire amount of interest paid on an education loan for yourself, your spouse, or your children from your taxable income. There is no upper limit on the deduction amount."
+    },
+    {
+        "prompt": "How does Section 80G help with charitable donations?",
+        "completion": "Section 80G provides a deduction for donations made to certain charitable organizations. The deduction can be 50% of the donated amount, subject to a maximum of 10% of your total income."
+    },
+    {
+        "prompt": "What are the tax benefits under Section 80TTA?",
+        "completion": "Section 80TTA allows you to deduct up to ₹10,000 from your taxable income for interest earned on savings account deposits."
+    },
+    {
+        "prompt": "What does Section 80EE offer to first-time home buyers?",
+        "completion": "Section 80EE allows first-time home buyers to deduct up to ₹50,000 from their taxable income for interest paid on a home loan. This benefit is applicable for loans taken between April 1, 2019, and March 31, 2022, for properties valued up to ₹50 lakh."
+    },
+    {
+        "prompt": "How does Section 80EEA benefit first-time home buyers differently from Section 80EE?",
+        "completion": "Section 80EEA allows first-time home buyers to claim an additional deduction of up to ₹1.5 lakh from their taxable income for interest paid on a home loan. The loan must have been sanctioned between April 1, 2019, and March 31, 2022, for properties valued up to ₹45 lakh."
+    },
+    {
+        "prompt": "What types of investments are eligible for deductions under Section 80C?",
+        "completion": "Under Section 80C, eligible investments include Public Provident Fund (PPF), Employee Provident Fund (EPF), Unit Linked Insurance Plans (ULIPs), National Pension System (NPS), Equity Linked Saving Schemes (ELSS), and five-year tax-saving bank fixed deposits."
+    },
+    {
+        "prompt": "Can you claim tax benefits for health insurance premiums for senior citizens under Section 80D?",
+        "completion": "Yes, under Section 80D, you can claim a deduction of up to ₹50,000 for health insurance premiums paid for senior citizens (either your parents or yourself). Additionally, a ₹25,000 deduction is available for premiums paid for yourself, your spouse, and dependent children."
+    },
+    {
+        "prompt": "Is there any limit on the interest deduction for education loans under Section 80E?",
+        "completion": "No, there is no upper limit on the amount of interest that can be claimed as a deduction under Section 80E for education loans."
+    },
+    {
+        "prompt": "What is the maximum deduction allowed under Section 80G for donations?",
+        "completion": "Under Section 80G, donations to certain charitable organizations can be deducted up to 50% of the donated amount, subject to a maximum of 10% of your total income."
+    },
+    {
+        "prompt": "How does Section 80TTA apply to savings account interest?",
+        "completion": "Section 80TTA provides a tax deduction of up to ₹10,000 on interest earned from savings account deposits. This benefit is available to non-senior citizens."
+    },
+    {
+        "prompt": "What are the conditions for claiming deductions under Section 80EE?",
+        "completion": "To claim deductions under Section 80EE, the home loan must be sanctioned between April 1, 2019, and March 31, 2022, and the value of the property should not exceed ₹50 lakh. The maximum deduction allowed is ₹50,000."
+    },
+    {
+        "prompt": "How can you benefit from Section 80EEA if you are a first-time home buyer?",
+        "completion": "Section 80EEA provides an additional deduction of up to ₹1.5 lakh on the interest paid for home loans taken between April 1, 2019, and March 31, 2022, for properties valued up to ₹45 lakh."
+    },
+    {
+        "prompt": "What investments can you make to utilize the full benefit of Section 80C?",
+        "completion": "To utilize the full benefit of Section 80C, you can invest in a combination of financial instruments such as PPF, EPF, ULIPs, NPS, ELSS, and tax-saving fixed deposits, up to the maximum limit of ₹1.5 lakh."
+    },
+    {
+        "prompt": "What is the maximum allowable deduction for health insurance premiums under Section 80D?",
+        "completion": "The maximum allowable deduction under Section 80D for health insurance premiums is ₹50,000. This includes ₹25,000 for premiums paid for yourself, your spouse, and dependent children, and an additional ₹25,000 for premiums paid for your parents if they are senior citizens."
+    },
+    {
+        "prompt": "What is the maximum deduction under Section 80C?",
+        "completion": "The maximum deduction under Section 80C is ₹1,50,000."
+    },
+    {
+        "prompt": "What does Section 80CCC cover?",
+        "completion": "Section 80CCC covers deductions for investments in pension funds."
+    },
+    {
+        "prompt": "What is Section 80CCD (1) for?",
+        "completion": "Section 80CCD (1) is for contributions to Atal Pension Yojana and National Pension Scheme."
+    },
+    {
+        "prompt": "What additional deduction does Section 80CCD (1B) provide?",
+        "completion": "Section 80CCD (1B) provides an additional deduction of up to ₹50,000 for contributions to Atal Pension Yojana and National Pension Scheme."
+    },
+    {
+        "prompt": "What is the limit for employer’s contribution under Section 80CCD (2)?",
+        "completion": "Under Section 80CCD (2), the employer’s contribution is limited to 14% of Basic Salary + Dearness Allowance (10% for non-government employers)."
+    },
+    {
+        "prompt": "How much can you claim under Section 80D for medical insurance?",
+        "completion": "Under Section 80D, you can claim up to ₹1,00,000 for medical insurance premiums."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80DD for medical treatment of dependents with disabilities?",
+        "completion": "Section 80DD allows a deduction of up to ₹1,25,000 or ₹75,000, depending on the severity of the disability."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80DDB for medical expenses?",
+        "completion": "Section 80DDB allows a deduction of up to ₹1,00,000 for senior citizens and ₹40,000 for others."
+    },
+    {
+        "prompt": "Is there a limit on the deduction for education loan interest under Section 80E?",
+        "completion": "No, there is no limit on the deduction for education loan interest under Section 80E."
+    },
+    {
+        "prompt": "What is the maximum deduction under Section 80EE for housing loans?",
+        "completion": "Section 80EE allows a deduction of up to ₹50,000 for housing loan interest."
+    },
+    {
+        "prompt": "How much additional deduction can you claim under Section 80EEA for housing loans?",
+        "completion": "Section 80EEA allows an additional deduction of up to ₹1,50,000 for housing loan interest."
+    },
+    {
+        "prompt": "What does Section 80EEB cover?",
+        "completion": "Section 80EEB covers deductions for interest paid on loans for electric vehicles, up to ₹1,50,000."
+    },
+    {
+        "prompt": "What does Section 80G provide for donations?",
+        "completion": "Section 80G provides deductions for donations to specified funds/institutions, with 100% or 50% deductions depending on the type."
+    },
+    {
+        "prompt": "What does Section 80GG cover?",
+        "completion": "Section 80GG provides deductions for rent paid for accommodation based on specified criteria."
+    },
+    {
+        "prompt": "What does Section 80GGA cover?",
+        "completion": "Section 80GGA covers deductions for donations made for scientific research or rural development."
+    },
+    {
+        "prompt": "What is the deduction limit for contributions to political parties under Section 80GGB?",
+        "completion": "Section 80GGB provides a 100% deduction for contributions to political parties made by companies."
+    },
+    {
+        "prompt": "What does Section 80GGC cover?",
+        "completion": "Section 80GGC provides a 100% deduction for contributions to political parties made by individuals and firms."
+    },
+    {
+        "prompt": "What is the maximum deduction under Section 80RRB for royalty income?",
+        "completion": "Section 80RRB provides a deduction of up to ₹3,00,000 for royalty income from patents."
+    },
+    {
+        "prompt": "What does Section 80QQB cover?",
+        "completion": "Section 80QQB provides a deduction of up to ₹3,00,000 for royalty income of authors."
+    },
+    {
+        "prompt": "What is the deduction limit under Section 80TTA for savings account interest?",
+        "completion": "Section 80TTA allows a deduction of up to ₹10,000 for interest earned on savings accounts."
+    },
+    {
+        "prompt": "How much can senior citizens claim under Section 80TTB for deposit interest?",
+        "completion": "Senior citizens can claim a deduction of up to ₹50,000 under Section 80TTB for interest on deposits."
+    },
+    {
+        "prompt": "What is the maximum deduction under Section 80U for disabled individuals?",
+        "completion": "Section 80U allows a deduction of up to ₹1,25,000 or ₹75,000, depending on the severity of the disability."
+    },
+    {
+        "prompt": "What are the investment options available under Section 80C of the Income Tax Act?",
+        "completion": "Under Section 80C of the Income Tax Act, you can invest in the following options to claim deductions: Equity Linked Saving Scheme (ELSS), National Pension Scheme (NPS), Unit Linked Insurance Plan (ULIP), Public Provident Fund (PPF), Sukanya Samriddhi Yojana (SSY), National Savings Certificate (NSC), Fixed Deposit (FD), and Employee Provident Fund (EPF). These investments allow you to reduce your taxable income by up to ₹1,50,000 per financial year."
+      },
+      {
+        "prompt": "How does investing in Equity Linked Saving Scheme (ELSS) benefit under Section 80C?",
+        "completion": "Investing in an Equity Linked Saving Scheme (ELSS) under Section 80C allows you to claim a tax deduction on your investment amount, up to a maximum of ₹1,50,000 per financial year. ELSS investments come with a lock-in period of three years."
+      },
+      {
+        "prompt": "What is the tax benefit of contributing to the National Pension Scheme (NPS) under Section 80C?",
+        "completion": "Contributions to the National Pension Scheme (NPS) are eligible for a tax deduction under Section 80C. You can claim a deduction of up to ₹1,50,000 per financial year for investments in NPS."
+      },
+      {
+        "prompt": "How does a Unit Linked Insurance Plan (ULIP) qualify for tax deductions under Section 80C?",
+        "completion": "Premiums paid towards a Unit Linked Insurance Plan (ULIP) qualify for a tax deduction under Section 80C. You can claim a deduction of up to ₹1,50,000 per financial year for ULIP premiums."
+      },
+      {
+        "prompt": "What are the tax benefits of investing in a Public Provident Fund (PPF) under Section 80C?",
+        "completion": "Contributions to a Public Provident Fund (PPF) are eligible for tax deductions under Section 80C. You can claim a deduction of up to ₹1,50,000 per financial year for PPF investments. Additionally, the interest earned and the maturity amount are also tax-free."
+      },
+      {
+        "prompt": "How does Sukanya Samriddhi Yojana (SSY) provide tax relief under Section 80C?",
+        "completion": "Investments in the Sukanya Samriddhi Yojana (SSY) are eligible for tax deductions under Section 80C. You can claim a deduction of up to ₹1,50,000 per financial year for deposits made in SSY accounts."
+      },
+      {
+        "prompt": "What are the tax benefits of National Savings Certificate (NSC) under Section 80C?",
+        "completion": "National Savings Certificate (NSC) investments qualify for tax deductions under Section 80C. You can claim a deduction of up to ₹1,50,000 per financial year for NSC investments. Interest earned on NSC is also taxable, but it is eligible for deduction under Section 80C."
+      },
+      {
+        "prompt": "How does Fixed Deposit (FD) with a tax-saving feature help with tax deductions under Section 80C?",
+        "completion": "Tax-saving Fixed Deposits (FDs) with a lock-in period of five years qualify for deductions under Section 80C. You can claim a deduction of up to ₹1,50,000 per financial year for investments in these FDs."
+      },
+      {
+        "prompt": "What tax benefits does Employee Provident Fund (EPF) offer under Section 80C?",
+        "completion": "Contributions to the Employee Provident Fund (EPF) are eligible for tax deductions under Section 80C. You can claim a deduction of up to ₹1,50,000 per financial year for EPF contributions. The interest earned and withdrawals are also tax-free under certain conditions."
+      },
+      {
+        "prompt": "Can taxpayers opting for the New Tax Regime benefit from Section 80C deductions?",
+        "completion": "No, taxpayers opting for the New Tax Regime cannot avail themselves of most deductions under Section 80C. However, they can still benefit from specific deductions such as those under Section 80CCD(2) and Section 80CCH."
+      },
+      {
+        "prompt": "What is the maximum amount deductible under Section 80C for investments?",
+        "completion": "The maximum amount you can deduct under Section 80C for investments is ₹1,50,000 per financial year."
+      },
+      {
+        "prompt": "Are there any tax-saving options under Section 80C with longer lock-in periods?",
+        "completion": "Yes, some tax-saving options under Section 80C, like the Public Provident Fund (PPF) and National Savings Certificate (NSC), have longer lock-in periods. PPF has a lock-in of 15 years, while NSC has a lock-in of 5 years."
+      },
+      {
+        "prompt": "What are the tax-saving benefits of investing in a Unit Linked Insurance Plan (ULIP)?",
+        "completion": "Investing in a Unit Linked Insurance Plan (ULIP) allows you to claim a tax deduction under Section 80C. You can deduct premiums paid up to ₹1,50,000 per financial year. ULIPs also provide life insurance coverage."
+      },
+      {
+        "prompt": "How do Fixed Deposits (FDs) qualify for deductions under Section 80C?",
+        "completion": "Fixed Deposits (FDs) with a lock-in period of five years qualify for tax deductions under Section 80C. You can claim a deduction of up to ₹1,50,000 per financial year for these FDs."
+      },
+      {
+        "prompt": "What are the specific investment options under Section 80C that offer tax benefits for long-term savings?",
+        "completion": "Section 80C offers tax benefits for long-term savings through investment options such as Public Provident Fund (PPF), National Savings Certificate (NSC), and Sukanya Samriddhi Yojana (SSY), each with extended lock-in periods."
+      },
+      {
+        "prompt": "What expenses are eligible for tax deductions under Section 80C of the Income Tax Act?",
+        "completion": "Under Section 80C of the Income Tax Act, you can claim deductions for various expenses including Life Insurance Premiums, Employee Provident Fund (EPF) Contributions, Public Provident Fund (PPF) Investments, National Savings Certificate (NSC) Investments, Equity-Linked Savings Scheme (ELSS) Investments, Sukanya Samriddhi Yojana (SSY) Investments, 5-Year Fixed Deposit with Banks, Senior Citizens Savings Scheme (SCSS) Investments, Tuition Fees for up to Two Children, Home Loan Principal Repayment, and Stamp Duty and Registration Charges for a Home. These deductions help reduce your taxable income by up to ₹1.5 lakh per financial year."
+      },
+      {
+        "prompt": "How can Life Insurance Premiums be deducted under Section 80C?",
+        "completion": "Life Insurance Premiums paid are eligible for a tax deduction under Section 80C. You can claim a deduction for premiums paid towards life insurance policies up to a maximum of ₹1.5 lakh per financial year."
+      },
+      {
+        "prompt": "What tax benefits are available for Employee Provident Fund (EPF) Contributions under Section 80C?",
+        "completion": "Contributions to the Employee Provident Fund (EPF) are eligible for tax deductions under Section 80C. You can claim a deduction up to ₹1.5 lakh per financial year for EPF contributions."
+      },
+      {
+        "prompt": "How does investing in Public Provident Fund (PPF) qualify for tax deductions under Section 80C?",
+        "completion": "Investments in the Public Provident Fund (PPF) qualify for tax deductions under Section 80C. You can claim a deduction of up to ₹1.5 lakh per financial year for PPF investments. The interest earned and maturity proceeds are also tax-free."
+      },
+      {
+        "prompt": "What is the tax deduction available for National Savings Certificate (NSC) investments under Section 80C?",
+        "completion": "National Savings Certificate (NSC) investments are eligible for tax deductions under Section 80C. You can claim a deduction up to ₹1.5 lakh per financial year for investments in NSC. The interest earned on NSC is also eligible for deduction."
+      },
+      {
+        "prompt": "How does investing in Equity-Linked Savings Scheme (ELSS) benefit from tax deductions under Section 80C?",
+        "completion": "Equity-Linked Savings Scheme (ELSS) investments qualify for tax deductions under Section 80C. You can claim a deduction up to ₹1.5 lakh per financial year for investments in ELSS, which also has the shortest lock-in period of three years among tax-saving options."
+      },
+      {
+        "prompt": "What tax benefits are available for Sukanya Samriddhi Yojana (SSY) investments under Section 80C?",
+        "completion": "Investments in Sukanya Samriddhi Yojana (SSY) are eligible for tax deductions under Section 80C. You can claim a deduction up to ₹1.5 lakh per financial year for deposits made in SSY accounts. The interest earned and maturity amount are also tax-free."
+      },
+      {
+        "prompt": "How do 5-Year Fixed Deposits with Banks qualify for tax deductions under Section 80C?",
+        "completion": "5-Year Fixed Deposits with banks qualify for tax deductions under Section 80C. You can claim a deduction up to ₹1.5 lakh per financial year for investments in these tax-saving FDs."
+      },
+      {
+        "prompt": "What tax benefits are available for Senior Citizens Savings Scheme (SCSS) investments under Section 80C?",
+        "completion": "Senior Citizens Savings Scheme (SCSS) investments qualify for tax deductions under Section 80C. You can claim a deduction up to ₹1.5 lakh per financial year for investments in SCSS. The interest earned is also taxable."
+      },
+      {
+        "prompt": "How does paying Tuition Fees for children provide tax relief under Section 80C?",
+        "completion": "Tuition Fees paid for the education of up to two children are eligible for tax deductions under Section 80C. You can claim a deduction up to ₹1.5 lakh per financial year for such fees."
+      },
+      {
+        "prompt": "What tax benefits are available for Home Loan Principal Repayment under Section 80C?",
+        "completion": "Home Loan Principal Repayment qualifies for tax deductions under Section 80C. You can claim a deduction up to ₹1.5 lakh per financial year for the principal portion of the home loan repayment."
+      },
+      {
+        "prompt": "How are Stamp Duty and Registration Charges for a home eligible for tax deductions under Section 80C?",
+        "completion": "Stamp Duty and Registration Charges paid for the purchase of a home qualify for tax deductions under Section 80C. These expenses can be claimed up to ₹1.5 lakh per financial year as part of the home loan principal repayment deduction."
+      },
+      {
+        "prompt": "What are the key features of income tax deductions under Section 80C?",
+        "completion": "Section 80C of the Income Tax Act provides taxpayers with a deduction of up to Rs. 1.5 lakh for investments in specified instruments. Key features include:\n\n1. **Life Insurance Premiums**: Premiums paid on policies for oneself, spouse, or children (minor or adult) are deductible. For Hindu Undivided Families (HUF), premiums paid for any qualifying member are also deductible.\n\n2. **Sukanya Samriddhi Scheme**: Investments made in the name of a daughter or any girl child for whom the taxpayer is the legal guardian are eligible.\n\n3. **Contributions to Various Funds**:\n   - Public Provident Fund (PPF)\n   - Approved superannuation fund\n   - Unit-linked Insurance Plan (ULIP)\n   - Approved annuity plan of LIC\n   - Pension fund managed by specified entities\n   - National Housing Bank Term Deposit Scheme, 2008\n   - Additional account under National Pension System (NPS)\n   - Senior Citizens Savings Scheme (SCSS) Rules, 2004\n\n4. **Subscriptions to Financial Instruments**:\n   - National Savings Certificates (VIII issues)\n   - Units of mutual funds or notified deposit schemes\n   - Specified equity shares, debentures, or mutual fund units\n   - Notified bonds issued by NABARD\n\n5. **Investment in a 5-Year Fixed Deposit**: FD with Scheduled Banks or Post Offices.\n\n6. **Repayment of Housing Loan Principal Amount**: Includes related expenses like stamp duty and registration fees.\n\n7. **Payment of Tuition Fees**: Fees paid for full-time education at any educational institution in India for up to two children.\n\nFor comprehensive details, refer to the provisions of the Income Tax Act."
+      },
+      {
+        "prompt": "What is the income tax rebate available for women under Section 87A?",
+        "completion": "Under Section 87A, women taxpayers can claim a rebate of up to 100% of the income tax payable or ₹12,500, whichever is lower, if their total annual income does not exceed ₹5,00,000."
+    },
+    {
+        "prompt": "How does the income tax rebate for women change under the new tax regime?",
+        "completion": "Under the new tax regime, women can claim a rebate of up to 100% of the income tax payable or ₹25,000, whichever is lower, if their total annual income does not exceed ₹7,00,000."
+    },
+    {
+        "prompt": "What standard deduction is available to women taxpayers under the new tax regime?",
+        "completion": "Under the new tax regime, women taxpayers can avail a standard deduction of ₹50,000 if they are salaried employees."
+    },
+    {
+        "prompt": "Are employer provident fund (EPF) contributions exempt for women taxpayers?",
+        "completion": "Yes, contributions made by an employer to the EPF are exempt up to a certain limit for women taxpayers."
+    },
+    {
+        "prompt": "What additional deductions are available for contributions to the National Pension Scheme (NPS) for women?",
+        "completion": "Women can claim additional deductions of up to ₹50,000 for contributions to the National Pension Scheme (NPS) under Section 80CCD(1B)."
+    },
+    {
+        "prompt": "Are health insurance premiums eligible for deductions under the new tax regime?",
+        "completion": "Yes, health insurance premiums are eligible for deductions under Section 80D, benefiting women taxpayers as well."
+    },
+    {
+        "prompt": "What are the Section 80C deductions available for women taxpayers?",
+        "completion": "Under Section 80C, women can claim deductions up to ₹1.5 lakh for investments in instruments like Public Provident Fund (PPF), National Savings Certificate (NSC), life insurance premiums, Equity-Linked Savings Scheme (ELSS), and more."
+    },
+    {
+        "prompt": "How is interest earned on savings accounts treated for tax purposes for women?",
+        "completion": "Interest earned up to ₹10,000 from savings accounts is exempt under Section 80TTA for women taxpayers."
+    },
+    {
+        "prompt": "What deductions are available for education loan interest for women taxpayers?",
+        "completion": "Women taxpayers can claim deductions on the interest paid on education loans under Section 80E, with no upper limit."
+    },
+    {
+        "prompt": "Can women claim House Rent Allowance (HRA) exemptions?",
+        "completion": "Yes, women can claim House Rent Allowance (HRA) exemptions if they live in rented accommodation, subject to certain conditions."
+    },
+    {
+        "prompt": "What are the tax benefits of investing in the Sukanya Samriddhi Yojana for women?",
+        "completion": "Investments in the Sukanya Samriddhi Yojana for a girl child offer tax benefits under Section 80C, and the interest earned is also tax-free."
+    }
+      
+
+]
