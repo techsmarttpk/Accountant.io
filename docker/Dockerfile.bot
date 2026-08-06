@@ -1,0 +1,17 @@
+FROM python:3.11-slim AS base
+
+RUN useradd --create-home --uid 1000 appuser
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY app ./app
+COPY data ./data
+
+RUN mkdir -p /app/data/uploads && chown -R appuser:appuser /app
+USER appuser
+
+# The bot has no HTTP surface of its own — it's a long-lived polling
+# client of the API container. No EXPOSE/HEALTHCHECK needed here.
+CMD ["python", "-m", "app.bot.main"]

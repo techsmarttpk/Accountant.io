@@ -1,0 +1,164 @@
+# SUPERSEDED — kept for historical reference only, not imported by anything.
+#
+# This was the entire original application: one file mixing Telegram I/O,
+# PDF/audio extraction, tax math, and raw GPT-2 inference, with a hardcoded
+# bot token and no persistence, tests, or audit trail. It has been fully
+# replaced by app/ (FastAPI backend + thin Telegram bot client, see
+# app/main.py and app/bot/main.py). See the engineering audit for the
+# specific problems this file had.
+
+from telegram.ext import Application, CommandHandler, MessageHandler, filters
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
+from telegram import Update
+from telegram.ext import ContextTypes
+import torch
+import fitz  # PyMuPDF for PDF text extraction
+import re
+import speech_recognition as sr  # For audio recognition
+
+# Model and tokenizer setup
+model_path = 'D:/Projects/Accountant.io/trained_gpt2'
+tokenizer_path = 'D:/Projects/Accountant.io/trained_gpt2'
+
+model = GPT2LMHeadModel.from_pretrained(model_path)
+tokenizer = GPT2Tokenizer.from_pretrained(tokenizer_path)
+
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text(
+        "Welcome to the Tax Bot! \nSend me your salary details as text, upload a document, or send an audio file for tax calculation."
+    )
+
+async def handle_document(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    document = update.message.document
+    if document:
+        file = await document.get_file()
+        file_path = 'user_input.pdf'
+        await file.download_to_drive(file_path)
+        await update.message.reply_text("File downloaded successfully. Processing...")
+        try:
+            extracted_text = extract_text_from_pdf(file_path)
+            tax_result = calculate_tax(extracted_text)
+            await update.message.reply_text(tax_result)
+        except Exception as e:
+            await update.message.reply_text(f"An error occurred while processing the document: {str(e)}")
+
+async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_text = update.message.text
+    try:
+        tax_result = calculate_tax(user_text)
+        await update.message.reply_text(tax_result)
+    except Exception as e:
+        await update.message.reply_text(f"An error occurred: {str(e)}")
+
+async def handle_audio(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    audio = update.message.voice or update.message.audio
+    if audio:
+        file = await audio.get_file()
+        file_path = 'user_audio.ogg'
+        await file.download_to_drive(file_path)
+        await update.message.reply_text("Audio downloaded successfully. Processing...")
+        try:
+            audio_text = convert_audio_to_text(file_path)
+            tax_result = calculate_tax(audio_text)
+            await update.message.reply_text(tax_result)
+        except Exception as e:
+            await update.message.reply_text(f"An error occurred while processing the audio: {str(e)}")
+
+def convert_audio_to_text(audio_path):
+    recognizer = sr.Recognizer()
+    with sr.AudioFile(audio_path) as source:
+        audio = recognizer.record(source)
+        try:
+            text = recognizer.recognize_google(audio)
+            return text
+        except sr.UnknownValueError:
+            return "Sorry, I could not understand the audio."
+        except sr.RequestError:
+            return "An error occurred with the audio recognition service."
+
+def extract_text_from_pdf(pdf_path):
+    doc = fitz.open(pdf_path)
+    text = ""
+    for page in doc:
+        text += page.get_text()
+    return text
+
+def calculate_tax(text):
+    try:
+        total_income, total_expenses, total_deductions = extract_financial_details(text)
+
+        net_income = total_income - total_expenses
+        taxable_income = net_income - total_deductions
+
+        tax = compute_income_tax(taxable_income)
+
+        return f"Your estimated tax is: ₹{tax:.2f}"
+    except Exception as e:
+        return f"Could not calculate tax. Error: {str(e)}"
+
+def extract_financial_details(text):
+    income, expenses, deductions = 0, 0, 0
+
+    income_patterns = {
+        'Salary': re.compile(r'Salary\s*:\s*₹?([\d,]+)')
+    }
+    deduction_patterns = {
+        '80C': re.compile(r'80C\s*:\s*₹?([\d,]+)')
+    }
+    expense_patterns = {
+        'Rent Paid': re.compile(r'Rent Paid\s*:\s*₹?([\d,]+)')
+    }
+
+    for key, pattern in income_patterns.items():
+        match = pattern.search(text)
+        if match:
+            income += int(match.group(1).replace(',', ''))
+
+    for key, pattern in deduction_patterns.items():
+        match = pattern.search(text)
+        if match:
+            deductions += int(match.group(1).replace(',', ''))
+
+    for key, pattern in expense_patterns.items():
+        match = pattern.search(text)
+        if match:
+            expenses += int(match.group(1).replace(',', ''))
+
+    return income, expenses, deductions
+
+def compute_income_tax(taxable_income):
+    if taxable_income <= 250000:
+        return 0
+    elif taxable_income <= 500000:
+        return (taxable_income - 250000) * 0.05
+    elif taxable_income <= 1000000:
+        return 12500 + (taxable_income - 500000) * 0.2
+    else:
+        return 112500 + (taxable_income - 1000000) * 0.3
+
+def answer_tax_questions(query):
+    inputs = tokenizer.encode(query, return_tensors="pt")
+    outputs = model.generate(inputs, max_length=100, num_return_sequences=1)
+    return tokenizer.decode(outputs[0], skip_special_tokens=True)
+
+async def handle_gpt_question(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_question = update.message.text
+    try:
+        response = answer_tax_questions(user_question)
+        await update.message.reply_text(response)
+    except Exception as e:
+        await update.message.reply_text(f"An error occurred while answering your question: {str(e)}")
+
+def main():
+    application = Application.builder().token("6596002194:AAGftCJ2Pq_VE6HgKnZQx6rLk-mOFnAOTIo").build()
+
+    application.add_handler(CommandHandler("start", start))
+    application.add_handler(MessageHandler(filters.Document.ALL, handle_document))
+    application.add_handler(MessageHandler(filters.TEXT & filters.Regex(r'^(?!.*(Tax:|Income|Deductions|Expenses)).'), handle_gpt_question))
+    application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_text))
+    application.add_handler(MessageHandler(filters.VOICE | filters.AUDIO, handle_audio))
+
+    application.run_polling()
+
+if __name__ == '__main__':
+    main()

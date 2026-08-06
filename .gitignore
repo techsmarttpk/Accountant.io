@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+.venv/
+venv/
+env/
+
+.env
+data/accountant.db
+data/uploads/
+*.db
+*.db-journal
+
+.vscode/
+.idea/
+
+trained_gpt2.zip
+
+# Large binary artifacts don't belong in git history (they bloat every
+# clone forever and diff/merge meaninglessly). Track these via Git LFS,
+# object storage, or a release artifact instead of a plain git blob.
+trained_gpt2/
+docs/*.mp4
+docs/*.pptx
+docs/*.docx
+docs/*.pdf
+docs/*.webp
